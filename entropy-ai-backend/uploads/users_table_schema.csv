@@ -1,0 +1,5 @@
+name,type,default,constraints
+id,uuid,uuid_generate_v4(),Primary Key
+email,text,,Unique
+password,text,,
+created_at,timestamp,now(),
